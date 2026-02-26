@@ -1,0 +1,265 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper{
+    
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.insta{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+
+}
+nav{
+    background-color: yellow;
+    position: fixed;
+}
+
+.sidebar{
+  height: 100%;
+  width: 20%;
+
+}
+
+.right-container{
+  height: 100%;
+  width: calc(100% - 20%);
+  background-color: #F6F6F6;
+  position: fixed;
+  right: 0;
+}
+.bottomnav{
+  height: 20vh;
+  width: 100%;
+  background-color: #F6F6F6;
+  position: fixed;
+  top: calc(100% - 90vh);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+
+}
+
+.topnav .box{
+  height: 10vh;
+  width: 100%;
+  background-color: #F6F6F6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+
+}
+input{padding: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+i{
+  margin-left: 0% ;
+}
+button{
+  padding:5px;
+  border-radius: 15px;
+  background-color:#E00E73;
+  margin-right: 20px;
+
+
+}
+.box .right{
+  background-color: yellow;
+
+}
+
+.left input{
+  margin-top: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 20px;
+
+
+}
+.stories{
+  display: flex;
+  gap: 7px;
+  overflow: auto;
+  font: bold;
+  scrollbar-width: thin;
+  margin: auto;
+  align-items: center;
+  position: ;
+  justify-content: center;
+  
+  
+}
+
+.circle{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius:50% ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-shrink: 0;
+  scrollbar-width: thin;
+  border: 2px solid #E00E73;
+  padding: 10px;
+  scrollbar-width: thin;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  width: 100%;
+  position: relative;
+}
+.instagram{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar{
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+
+}
+.right-container{
+  height: 100%;
+  width: calc(100% - 20%);
+  background-color: whitesmoke;
+  position: fixed;
+  right: 0;
+}
+
+.topnav{
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: space-between;
+   position: relative;
+}
+.topnav .box{
+  height: 10vh;
+  width: calc(100% / 2);
+}
+.left{
+  background-color: #F6F6F6;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  display: flex;
+}
+.left input{
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  border: none;
+}
+.right{
+  background-color: #F6F6F6;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: larger;
+  padding-right: 20px;
+  gap: 20px;
+
+
+}
+button{
+  border-radius: 10px;
+  background-color: #E0176A;
+  padding: 4px;
+  position: relative;
+  justify-content: right;
+}
+
+.bottomnav{
+  height: 20vh;
+  width: 100%;
+  padding-left: 20px;
+  padding-right:20px ;
+  padding-bottom: 20px;
+  background-color: #F6F6F6;
+  position:fixed ;
+  top: calc(100% - 90vh);
+  /* padding: 10px; */
+
+
+}
+.bottomnav h1{
+  font-weight: 500;
+  font-size: 24px;
+
+}
+.stories-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+  scrollbar-width: thin;
+}
+.circle-container{
+  height: 100%;
+  width: 100%;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  padding: 2px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border:2px solid #994e6c;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 10px; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* padding: 2px; */
+}
